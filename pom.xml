@@ -17,7 +17,7 @@
               <goal>java</goal>
             </goals>
             <configuration>
-              <mainClass>parsing.WikiParser</mainClass>
+              <mainClass>Main</mainClass>
               <source>1.8</source>
               <target>1.8</target>
             </configuration>
@@ -31,6 +31,11 @@
   		<groupId>org.jsoup</groupId>
   		<artifactId>jsoup</artifactId>
   		<version>1.9.2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.json</groupId>
+  		<artifactId>json</artifactId>
+  		<version>20160212</version>
   	</dependency>
   </dependencies>
 </project>
