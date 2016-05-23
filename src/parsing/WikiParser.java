@@ -5,6 +5,8 @@ package parsing;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
@@ -14,14 +16,20 @@ import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 import org.jsoup.select.NodeVisitor;
 
-import error.Error;
-
 /**
  * @author Harshit
  * 
  * From HTML file downloaded from Wikipedia.org, create JSON of headings and contents.
- * JSON format is {title: ..., content: {...}} where
- * content format is {heading: {text: ..., <subheading>: ...}}
+ * JSON format is 
+ * {
+ * 	<topic1>: 
+ * 	{
+ * 		text: <text>, 
+ * 		<subtopic1>: {text: <text>}, 
+ * 		...
+ * 	}, 
+ * 	...
+ * }
  */
 public class WikiParser {
 	
@@ -147,7 +155,6 @@ public class WikiParser {
 			break;
 			
 		default:
-			System.out.println(Error.WIKIPARSER_INVALID_STATE);
 			break;
 			
 		}
@@ -196,5 +203,47 @@ public class WikiParser {
 		
 		return mPageJson;
 	}
+	
+	private boolean clean(JSONObject json) {
+		
+		boolean isSectionEmpty = true;
+		
+		Iterator<String> keys = json.keys();
+		ArrayList<String> keysToRemove = new ArrayList<String>();
+		
+		while(keys.hasNext()) {
+			
+			String key = keys.next();
+			if(json.get(key) instanceof JSONObject) {
+				
+				boolean isSubSectionEmpty = clean(json.getJSONObject(key));
+				if(isSubSectionEmpty)
+					keysToRemove.add(key);
+				isSectionEmpty = (isSectionEmpty && isSubSectionEmpty);
+				
+			} else if (json.get(key) instanceof String) {
+				
+				boolean isTextEmpty = json.getString(key).isEmpty();
+				isSectionEmpty = (isSectionEmpty && isTextEmpty);
+				
+			}
+			
+		}
+		
+		for(String key : keysToRemove)
+			json.remove(key);
+		
+		return isSectionEmpty;
+		
+	}
 
+	public JSONObject parseAndClean(String fileName) throws IOException {
+		
+		parse(fileName);
+		clean(mPageJson);
+		
+		return mPageJson;
+		
+	}
+	
 }

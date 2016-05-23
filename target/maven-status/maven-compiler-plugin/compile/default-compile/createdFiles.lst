@@ -2,5 +2,6 @@ Main.class
 parsing\WikiParser$FSM_state.class
 parsing\WikiParser$FSM_transition.class
 error\Error.class
-parsing\WikiParser$1.class
 parsing\WikiParser.class
+config\Config.class
+parsing\WikiParser$1.class
