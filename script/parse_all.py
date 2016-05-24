@@ -8,5 +8,6 @@ config_path = base_path + "\src\config\config.xml"
 politicians = next(os.walk(politician_data_path))[1]
 
 for politician in politicians:
+	print(politician)
 	command = "java -jar " + jar_path + " " + config_path + " " + politician
 	os.system(command)

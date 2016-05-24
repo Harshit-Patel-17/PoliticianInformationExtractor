@@ -1,0 +1,243 @@
+POLITICIAN,CATEGORY,TOPIC
+barack_obama,Foreign policy,Overview
+bob_barr,Foreign policy,Foreign aid
+bob_barr,Foreign policy,Trade
+bob_barr,Foreign policy,Iran
+bob_barr,Foreign policy,United Nations
+bob_barr,Foreign policy,War in Iraq
+bob_barr,Economic policy,Social Security
+bob_barr,Economic policy,Monetary policy
+bob_barr,Economic policy,Taxation
+bob_barr,Civil liberties,Privacy
+bob_barr,Civil liberties,Gun ownership rights
+bob_barr,Civil liberties,Marriage
+cynthia_mckinney,Social policy,Education
+cynthia_mckinney,Social policy,Crime
+cynthia_mckinney,Social policy,Affirmative action
+cynthia_mckinney,Social policy,Immigration
+cynthia_mckinney,Social policy,LGBT rights
+cynthia_mckinney,Social policy,Abortion
+cynthia_mckinney,Social policy,Gun control
+cynthia_mckinney,Foreign policy,Nuclear weapons
+cynthia_mckinney,Foreign policy,Cuba
+cynthia_mckinney,Foreign policy,Czech Republic
+cynthia_mckinney,Foreign policy,Pakistan
+cynthia_mckinney,Foreign policy,Kosovo
+cynthia_mckinney,Foreign policy,Iraq War
+cynthia_mckinney,Foreign policy,Israel and Palestine
+cynthia_mckinney,Economic policy,Health care
+cynthia_mckinney,Economic policy,Defense spending
+cynthia_mckinney,Economic policy,Technology
+cynthia_mckinney,Economic policy,Network neutrality
+cynthia_mckinney,Economic policy,Free trade
+cynthia_mckinney,Economic policy,Financial crisis & bailout
+cynthia_mckinney,Economic policy,Tax reform
+cynthia_mckinney,Energy and environmental policy,Energy dependence
+cynthia_mckinney,Energy and environmental policy,Everglades
+cynthia_mckinney,Energy and environmental policy,Alternative energy sources
+cynthia_mckinney,Energy and environmental policy,ANWR
+gary_johnson,Social policy,Drinking age
+gary_johnson,Social policy,Death penalty
+gary_johnson,Social policy,Abortion
+gary_johnson,Social policy,Tobacco control
+gary_johnson,Social policy,Stem cell research
+gary_johnson,Social policy,Education
+gary_johnson,Social policy,Crime
+gary_johnson,Social policy,Immigration
+gary_johnson,Social policy,Gun rights
+gary_johnson,Social policy,Internet issues
+gary_johnson,Social policy,Drug policy
+gary_johnson,Social policy,Homosexuality issues
+gary_johnson,Economic policy,Health care
+gary_johnson,Economic policy,Free-market capitalism
+gary_johnson,Economic policy,Budget, deficits
+gary_johnson,Economic policy,Energy
+gary_johnson,Economic policy,Employment
+gary_johnson,Economic policy,Labor unions
+gary_johnson,Economic policy,Environment
+gary_johnson,Economic policy,Federal Reserve
+gary_johnson,Economic policy,Free trade
+gary_johnson,Economic policy,Social Security and Medicare
+gary_johnson,Structure of government,Eminent domain
+gary_johnson,Structure of government,Judicial appointments
+gary_johnson,Structure of government,Campaign finance regulation
+gary_johnson,Structure of government,States' rights
+gary_johnson,Structure of government,Civil liberties
+gary_johnson,Military and foreign policy,Cuba
+gary_johnson,Military and foreign policy,Non-state terrorism
+gary_johnson,Military and foreign policy,Afghanistan
+gary_johnson,Military and foreign policy,Iran
+gary_johnson,Military and foreign policy,Ukraine
+gary_johnson,Military and foreign policy,Uganda
+gary_johnson,Military and foreign policy,Iraq
+gary_johnson,Military and foreign policy,Israel
+gary_johnson,Military and foreign policy,Libya
+george_bush,Social policy,Stem cell research
+george_bush,Social policy,LGBT issues
+george_bush,Social policy,Education: No Child Left Behind
+george_bush,Social policy,Death penalty
+george_bush,Social policy,Environment
+george_bush,Social policy,Prayer in public schools
+george_bush,Social policy,Abortion
+george_bush,Foreign policy,Iran
+george_bush,Foreign policy,Homeland security
+george_bush,Foreign policy,Iraq War
+george_bush,Economic policy,Health care
+george_bush,Economic policy,Fiscal policy and taxation
+george_bush,Economic policy,Free-market capitalism
+george_bush,Economic policy,Trade
+george_bush,Economic policy,Energy policy
+george_bush,Economic policy,Entitlement Reform
+george_bush,Civil liberties,Anti-terrorism and domestic surveillance
+george_bush,Civil liberties,Gun laws
+george_bush,Civil liberties,Habeas Corpus
+george_bush,Civil liberties,Flag burning
+hillary_clinton,Social policy,Abortion and birth control
+hillary_clinton,Social policy,Poverty
+hillary_clinton,Social policy,Veterans
+hillary_clinton,Social policy,Faith-based initiatives
+hillary_clinton,Social policy,Death penalty
+hillary_clinton,Social policy,Internet neutrality
+hillary_clinton,Social policy,Arts and culture
+hillary_clinton,Social policy,Native American issues
+hillary_clinton,Social policy,Racial justice
+hillary_clinton,Social policy,Income inequality
+hillary_clinton,Social policy,Stem cell research
+hillary_clinton,Social policy,Education
+hillary_clinton,Social policy,Crime
+hillary_clinton,Social policy,LGBT rights
+hillary_clinton,Social policy,Environment
+hillary_clinton,Social policy,Women's rights
+hillary_clinton,Social policy,Video game regulation
+hillary_clinton,Social policy,Drug policy
+hillary_clinton,Social policy,Church and state
+hillary_clinton,Social policy,From childhood to retirement
+hillary_clinton,Political philosophy,Scales and rankings
+hillary_clinton,Political philosophy,As described by herself
+hillary_clinton,Foreign policy,Cuban embargo
+hillary_clinton,Foreign policy,United Nations
+hillary_clinton,Foreign policy,Homeland security
+hillary_clinton,Foreign policy,Iraq War
+hillary_clinton,Foreign policy,Armenian Genocide
+hillary_clinton,Foreign policy,Libya
+hillary_clinton,Foreign policy,Arab-Israeli conflict, relations with Israel
+hillary_clinton,Foreign policy,Humanitarian intervention abroad
+hillary_clinton,Foreign policy,Security vs. human rights
+hillary_clinton,Foreign policy,Iran
+hillary_clinton,Foreign policy,Russia and Ukraine
+hillary_clinton,Foreign policy,NATO and U.S. relations with allies
+hillary_clinton,Foreign policy,Syria and fight against ISIL
+hillary_clinton,Civil liberties and democracy,Electoral college
+hillary_clinton,Civil liberties and democracy,Voting rights
+hillary_clinton,Civil liberties and democracy,Flag desecration
+hillary_clinton,Civil liberties and democracy,Executive authority
+hillary_clinton,Civil liberties and democracy,Anti-terrorism and domestic surveillance
+hillary_clinton,Civil liberties and democracy,Government secrecy
+hillary_clinton,Civil liberties and democracy,Habeas corpus
+hillary_clinton,Civil liberties and democracy,Americans with disabilities
+hillary_clinton,Civil liberties and democracy,Gun control
+hillary_clinton,Economic policy,Health care
+hillary_clinton,Economic policy,Fiscal policy and taxation
+hillary_clinton,Economic policy,Financial regulation and Wall Street reform
+hillary_clinton,Economic policy,Trade
+hillary_clinton,Economic policy,Subprime mortgage crisis relief
+hillary_clinton,Economic policy,Social Security tax cap
+hillary_clinton,Economic policy,Campaign finance
+hillary_clinton,Economic policy,Jobs and minimum wage
+hillary_clinton,Economic policy,Capitalism and economic philosophy
+hillary_clinton,Economic policy,Bankruptcy
+hillary_clinton,Energy policy,Nuclear power
+hillary_clinton,Energy policy,Climate change
+hillary_clinton,Energy policy,Ethanol
+hillary_clinton,Energy policy,Renewable energy
+hillary_clinton,Energy policy,Coal
+hillary_clinton,Energy policy,Keystone XL pipeline
+john_edwards,Health care,Cost Containment
+john_edwards,Health care,Revenue sources
+john_edwards,Foreign Policy,Iraq and the Middle East
+john_edwards,Foreign Policy,War on Terrorism
+john_edwards,Economic Policy,End Poverty in 30 Years
+john_edwards,Economic Policy,College for everyone
+john_edwards,Economic Policy,Energy Independence and Stopping Global warming
+john_edwards,Social Policy,LGBT issues
+john_edwards,Social Policy,National Service
+john_edwards,Social Policy,Cannabis legalization
+john_edwards,Social Policy,Immigration
+john_edwards,Social Policy,Civil liberties
+john_edwards,Social Policy,Abortion
+mitt_romney,Social policy,Gambling
+mitt_romney,Social policy,Medical marijuana
+mitt_romney,Social policy,Education
+mitt_romney,Social policy,Immigration
+mitt_romney,Social policy,Social welfare
+mitt_romney,Social policy,Evolution
+mitt_romney,Social policy,Family
+mitt_romney,Social policy,Crime and punishment
+mitt_romney,Social policy,Gun ownership
+mitt_romney,Social policy,Civil liberties
+mitt_romney,Social policy,Abortion and related issues
+mitt_romney,Foreign policy,Role of culture in producing prosperity
+mitt_romney,Foreign policy,Libya
+mitt_romney,Foreign policy,European allies
+mitt_romney,Foreign policy,Syria
+mitt_romney,Foreign policy,War Powers
+mitt_romney,Foreign policy,Russia
+mitt_romney,Foreign policy,War on Terror
+mitt_romney,Foreign policy,Cuba
+mitt_romney,Foreign policy,Venezuela
+mitt_romney,Foreign policy,Israel and the Arab-Israeli conflict
+mitt_romney,Foreign policy,Pakistan
+mitt_romney,Foreign policy,War in Afghanistan
+mitt_romney,Foreign policy,Iran
+mitt_romney,Foreign policy,China
+mitt_romney,Foreign policy,Iraq
+mitt_romney,Foreign policy,France
+mitt_romney,Foreign policy,European debt crisis
+mitt_romney,Foreign policy,U.S. place in the world
+mitt_romney,Economic policy,Health care
+mitt_romney,Economic policy,Stimulus
+mitt_romney,Economic policy,Defense spending levels
+mitt_romney,Economic policy,Deficit
+mitt_romney,Economic policy,Campaign finance
+mitt_romney,Economic policy,Financial industry regulation and Occupy Wall Street
+mitt_romney,Economic policy,Minimum wage
+mitt_romney,Economic policy,Unemployment insurance
+mitt_romney,Economic policy,Housing market
+mitt_romney,Economic policy,Federal emergency management / Disaster relief
+mitt_romney,Economic policy,Jobs plan
+mitt_romney,Economic policy,Trade
+mitt_romney,Economic policy,Technology
+mitt_romney,Economic policy,Automotive industry
+mitt_romney,Economic policy,Labor unions
+mitt_romney,Economic policy,Agriculture
+mitt_romney,Economic policy,Budget
+mitt_romney,Economic policy,Space exploration
+mitt_romney,Economic policy,Taxation
+mitt_romney,Economic policy,Energy and the environment
+ralph_nader,Social policy,Health care
+ralph_nader,Social policy,Public safety
+ralph_nader,Social policy,Civil rights
+ralph_nader,Constitutional policy,Voting
+ralph_nader,Constitutional policy,Campaign finance
+ralph_nader,Foreign policy,Relations and views of other governments
+ralph_nader,Foreign policy,Cuba
+ralph_nader,Foreign policy,Defense and military
+ralph_nader,Foreign policy,Israel/Palestinian territories
+ralph_nader,Economic policy,Corporations
+ralph_nader,Economic policy,Finance
+ralph_nader,Economic policy,Labor
+ronald_reagan,Social policy,Drugs
+ronald_reagan,Social policy,Crime and capital punishment
+ronald_reagan,Social policy,Education
+ronald_reagan,Social policy,Environment
+ronald_reagan,Social policy,Civil rights
+ronald_reagan,Social policy,Abortion
+ronald_reagan,Social policy,Energy and oil
+ronald_reagan,Foreign policy,Nuclear weapons
+ronald_reagan,Foreign policy,Cold War
+ronald_reagan,Foreign policy,Iran-Iraq
+ronald_reagan,Economic policy,Economic plans, taxes, and deficit
+ronald_reagan,Economic policy,Social Security
+ronald_reagan,Economic policy,Healthcare
+ronald_reagan,Economic policy,New Deal
+ronald_reagan,Economic policy,Free trade

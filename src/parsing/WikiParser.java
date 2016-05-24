@@ -12,9 +12,7 @@ import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
-import org.jsoup.select.NodeVisitor;
 
 /**
  * @author Harshit
@@ -37,7 +35,6 @@ public class WikiParser {
 	private enum FSM_transition {H2, H3, P, None};
 	
 	private FSM_state mCurrentState;
-	private Element mCurrentElement;
 	private JSONObject mCurrentSectionJson;
 	private String mCurrentSectionTitle;
 	private JSONObject mCurrentSubSectionJson;
@@ -47,7 +44,6 @@ public class WikiParser {
 	
 	private void initParsingVariables() {
 		mCurrentState = FSM_state.Start;
-		mCurrentElement = null;
 		mCurrentSectionJson = null;
 		mCurrentSectionTitle = null;
 		mCurrentSubSectionJson = null;
@@ -56,13 +52,19 @@ public class WikiParser {
 	}
 	
 	private void createNewSection(Element element) {
-		mCurrentSectionTitle = element.text();
+		int titleLength = element.text().length();
+		if(element.text().length() >= 6 && element.text().substring(titleLength - 6, titleLength).equals("[edit]"))
+			titleLength -= 6;
+		mCurrentSectionTitle = element.text().substring(0, titleLength);
 		mCurrentSectionJson = new JSONObject();
 		mCurrentSectionJson.put("text", "");
 	}
 	
 	private void createNewSubSection(Element element) {
-		mCurrentSubSectionTitle = element.text();
+		int titleLength = element.text().length();
+		if(element.text().length() >= 6 && element.text().substring(titleLength - 6, titleLength).equals("[edit]"))
+			titleLength -= 6;
+		mCurrentSubSectionTitle = element.text().substring(0, titleLength);
 		mCurrentSubSectionJson = new JSONObject();
 		mCurrentSubSectionJson.put("text", "");
 	}
