@@ -1,7 +1,7 @@
 /**
  * 
  */
-package parsing;
+package wikipedia;
 
 import java.io.File;
 import java.io.IOException;
@@ -51,28 +51,34 @@ public class WikiParser {
 		mPageJson = new JSONObject();
 	}
 	
+	private String sanitizeTitle(String title) {
+		return title.replaceAll("[^a-zA-Z ]", "").replaceAll("\\s+", " ").replaceAll(" ", "_").trim().toLowerCase();
+	}
+	
 	private void createNewSection(Element element) {
 		int titleLength = element.text().length();
 		if(element.text().length() >= 6 && element.text().substring(titleLength - 6, titleLength).equals("[edit]"))
 			titleLength -= 6;
-		mCurrentSectionTitle = element.text().substring(0, titleLength);
+		mCurrentSectionTitle = sanitizeTitle(element.text().substring(0, titleLength));
 		mCurrentSectionJson = new JSONObject();
-		mCurrentSectionJson.put("text", "");
+		JSONObject overViewJson = new JSONObject();
+		overViewJson.put("text", "");
+		mCurrentSectionJson.put("overview", overViewJson);
 	}
 	
 	private void createNewSubSection(Element element) {
 		int titleLength = element.text().length();
 		if(element.text().length() >= 6 && element.text().substring(titleLength - 6, titleLength).equals("[edit]"))
 			titleLength -= 6;
-		mCurrentSubSectionTitle = element.text().substring(0, titleLength);
+		mCurrentSubSectionTitle = sanitizeTitle(element.text().substring(0, titleLength));
 		mCurrentSubSectionJson = new JSONObject();
 		mCurrentSubSectionJson.put("text", "");
 	}
 	
 	private void appendTextInSection(Element element) {
-		String currentText = mCurrentSectionJson.getString("text");
+		String currentText = mCurrentSectionJson.getJSONObject("overview").getString("text");
 		currentText += element.text();
-		mCurrentSectionJson.put("text", currentText);
+		mCurrentSectionJson.getJSONObject("overview").put("text", currentText);
 	}
 	
 	private void appendTextInSubSection(Element element) {

@@ -1,15 +1,15 @@
-ronald_reagan,Social policy,Drugs
-ronald_reagan,Social policy,Crime and capital punishment
-ronald_reagan,Social policy,Education
-ronald_reagan,Social policy,Environment
-ronald_reagan,Social policy,Civil rights
-ronald_reagan,Social policy,Abortion
-ronald_reagan,Social policy,Energy and oil
-ronald_reagan,Foreign policy,Nuclear weapons
-ronald_reagan,Foreign policy,Cold War
-ronald_reagan,Foreign policy,Iran-Iraq
-ronald_reagan,Economic policy,Economic plans, taxes, and deficit
-ronald_reagan,Economic policy,Social Security
-ronald_reagan,Economic policy,Healthcare
-ronald_reagan,Economic policy,New Deal
-ronald_reagan,Economic policy,Free trade
+ronald_reagan,economic_policy,economic_plans_taxes_and_deficit
+ronald_reagan,economic_policy,new_deal
+ronald_reagan,economic_policy,social_security
+ronald_reagan,economic_policy,free_trade
+ronald_reagan,economic_policy,healthcare
+ronald_reagan,foreign_policy,iraniraq
+ronald_reagan,foreign_policy,nuclear_weapons
+ronald_reagan,foreign_policy,cold_war
+ronald_reagan,social_policy,environment
+ronald_reagan,social_policy,crime_and_capital_punishment
+ronald_reagan,social_policy,abortion
+ronald_reagan,social_policy,education
+ronald_reagan,social_policy,drugs
+ronald_reagan,social_policy,civil_rights
+ronald_reagan,social_policy,energy_and_oil

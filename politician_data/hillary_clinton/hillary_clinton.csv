@@ -1,60 +1,63 @@
-hillary_clinton,Social policy,Abortion and birth control
-hillary_clinton,Social policy,Poverty
-hillary_clinton,Social policy,Veterans
-hillary_clinton,Social policy,Faith-based initiatives
-hillary_clinton,Social policy,Death penalty
-hillary_clinton,Social policy,Internet neutrality
-hillary_clinton,Social policy,Arts and culture
-hillary_clinton,Social policy,Native American issues
-hillary_clinton,Social policy,Racial justice
-hillary_clinton,Social policy,Income inequality
-hillary_clinton,Social policy,Stem cell research
-hillary_clinton,Social policy,Education
-hillary_clinton,Social policy,Crime
-hillary_clinton,Social policy,LGBT rights
-hillary_clinton,Social policy,Environment
-hillary_clinton,Social policy,Women's rights
-hillary_clinton,Social policy,Video game regulation
-hillary_clinton,Social policy,Drug policy
-hillary_clinton,Social policy,Church and state
-hillary_clinton,Social policy,From childhood to retirement
-hillary_clinton,Political philosophy,Scales and rankings
-hillary_clinton,Political philosophy,As described by herself
-hillary_clinton,Foreign policy,Cuban embargo
-hillary_clinton,Foreign policy,United Nations
-hillary_clinton,Foreign policy,Homeland security
-hillary_clinton,Foreign policy,Iraq War
-hillary_clinton,Foreign policy,Armenian Genocide
-hillary_clinton,Foreign policy,Libya
-hillary_clinton,Foreign policy,Arab-Israeli conflict, relations with Israel
-hillary_clinton,Foreign policy,Humanitarian intervention abroad
-hillary_clinton,Foreign policy,Security vs. human rights
-hillary_clinton,Foreign policy,Iran
-hillary_clinton,Foreign policy,Russia and Ukraine
-hillary_clinton,Foreign policy,NATO and U.S. relations with allies
-hillary_clinton,Foreign policy,Syria and fight against ISIL
-hillary_clinton,Civil liberties and democracy,Electoral college
-hillary_clinton,Civil liberties and democracy,Voting rights
-hillary_clinton,Civil liberties and democracy,Flag desecration
-hillary_clinton,Civil liberties and democracy,Executive authority
-hillary_clinton,Civil liberties and democracy,Anti-terrorism and domestic surveillance
-hillary_clinton,Civil liberties and democracy,Government secrecy
-hillary_clinton,Civil liberties and democracy,Habeas corpus
-hillary_clinton,Civil liberties and democracy,Americans with disabilities
-hillary_clinton,Civil liberties and democracy,Gun control
-hillary_clinton,Economic policy,Health care
-hillary_clinton,Economic policy,Fiscal policy and taxation
-hillary_clinton,Economic policy,Financial regulation and Wall Street reform
-hillary_clinton,Economic policy,Trade
-hillary_clinton,Economic policy,Subprime mortgage crisis relief
-hillary_clinton,Economic policy,Social Security tax cap
-hillary_clinton,Economic policy,Campaign finance
-hillary_clinton,Economic policy,Jobs and minimum wage
-hillary_clinton,Economic policy,Capitalism and economic philosophy
-hillary_clinton,Economic policy,Bankruptcy
-hillary_clinton,Energy policy,Nuclear power
-hillary_clinton,Energy policy,Climate change
-hillary_clinton,Energy policy,Ethanol
-hillary_clinton,Energy policy,Renewable energy
-hillary_clinton,Energy policy,Coal
-hillary_clinton,Energy policy,Keystone XL pipeline
+hillary_clinton,economic_policy,jobs_and_minimum_wage
+hillary_clinton,economic_policy,trade
+hillary_clinton,economic_policy,capitalism_and_economic_philosophy
+hillary_clinton,economic_policy,financial_regulation_and_wall_street_reform
+hillary_clinton,economic_policy,health_care
+hillary_clinton,economic_policy,social_security_tax_cap
+hillary_clinton,economic_policy,subprime_mortgage_crisis_relief
+hillary_clinton,economic_policy,campaign_finance
+hillary_clinton,economic_policy,fiscal_policy_and_taxation
+hillary_clinton,economic_policy,bankruptcy
+hillary_clinton,energy_policy,overview
+hillary_clinton,energy_policy,nuclear_power
+hillary_clinton,energy_policy,climate_change
+hillary_clinton,energy_policy,coal
+hillary_clinton,energy_policy,renewable_energy
+hillary_clinton,energy_policy,keystone_xl_pipeline
+hillary_clinton,energy_policy,ethanol
+hillary_clinton,immigration_policy,overview
+hillary_clinton,civil_liberties_and_democracy,overview
+hillary_clinton,civil_liberties_and_democracy,voting_rights
+hillary_clinton,civil_liberties_and_democracy,executive_authority
+hillary_clinton,civil_liberties_and_democracy,americans_with_disabilities
+hillary_clinton,civil_liberties_and_democracy,antiterrorism_and_domestic_surveillance
+hillary_clinton,civil_liberties_and_democracy,government_secrecy
+hillary_clinton,civil_liberties_and_democracy,gun_control
+hillary_clinton,civil_liberties_and_democracy,habeas_corpus
+hillary_clinton,civil_liberties_and_democracy,electoral_college
+hillary_clinton,civil_liberties_and_democracy,flag_desecration
+hillary_clinton,foreign_policy,homeland_security
+hillary_clinton,foreign_policy,united_nations
+hillary_clinton,foreign_policy,nato_and_us_relations_with_allies
+hillary_clinton,foreign_policy,armenian_genocide
+hillary_clinton,foreign_policy,iran
+hillary_clinton,foreign_policy,cuban_embargo
+hillary_clinton,foreign_policy,libya
+hillary_clinton,foreign_policy,iraq_war
+hillary_clinton,foreign_policy,russia_and_ukraine
+hillary_clinton,foreign_policy,arabisraeli_conflict_relations_with_israel
+hillary_clinton,foreign_policy,syria_and_fight_against_isil
+hillary_clinton,foreign_policy,security_vs_human_rights
+hillary_clinton,foreign_policy,humanitarian_intervention_abroad
+hillary_clinton,political_philosophy,as_described_by_herself
+hillary_clinton,political_philosophy,scales_and_rankings
+hillary_clinton,social_policy,death_penalty
+hillary_clinton,social_policy,native_american_issues
+hillary_clinton,social_policy,veterans
+hillary_clinton,social_policy,education
+hillary_clinton,social_policy,womens_rights
+hillary_clinton,social_policy,internet_neutrality
+hillary_clinton,social_policy,video_game_regulation
+hillary_clinton,social_policy,arts_and_culture
+hillary_clinton,social_policy,environment
+hillary_clinton,social_policy,racial_justice
+hillary_clinton,social_policy,faithbased_initiatives
+hillary_clinton,social_policy,church_and_state
+hillary_clinton,social_policy,drug_policy
+hillary_clinton,social_policy,abortion_and_birth_control
+hillary_clinton,social_policy,stem_cell_research
+hillary_clinton,social_policy,lgbt_rights
+hillary_clinton,social_policy,crime
+hillary_clinton,social_policy,poverty
+hillary_clinton,social_policy,from_childhood_to_retirement
+hillary_clinton,social_policy,income_inequality

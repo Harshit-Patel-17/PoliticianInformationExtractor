@@ -1,13 +1,16 @@
-john_edwards,Health care,Cost Containment
-john_edwards,Health care,Revenue sources
-john_edwards,Foreign Policy,Iraq and the Middle East
-john_edwards,Foreign Policy,War on Terrorism
-john_edwards,Economic Policy,End Poverty in 30 Years
-john_edwards,Economic Policy,College for everyone
-john_edwards,Economic Policy,Energy Independence and Stopping Global warming
-john_edwards,Social Policy,LGBT issues
-john_edwards,Social Policy,National Service
-john_edwards,Social Policy,Cannabis legalization
-john_edwards,Social Policy,Immigration
-john_edwards,Social Policy,Civil liberties
-john_edwards,Social Policy,Abortion
+john_edwards,economic_policy,college_for_everyone
+john_edwards,economic_policy,energy_independence_and_stopping_global_warming
+john_edwards,economic_policy,end_poverty_in_years
+john_edwards,foreign_policy,iraq_and_the_middle_east
+john_edwards,foreign_policy,war_on_terrorism
+john_edwards,health_care,overview
+john_edwards,health_care,revenue_sources
+john_edwards,health_care,cost_containment
+john_edwards,social_policy,immigration
+john_edwards,social_policy,abortion
+john_edwards,social_policy,cannabis_legalization
+john_edwards,social_policy,lgbt_issues
+john_edwards,social_policy,national_service
+john_edwards,social_policy,civil_liberties
+john_edwards,crime,overview
+john_edwards,the_media,overview

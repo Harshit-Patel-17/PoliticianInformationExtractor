@@ -1,36 +1,38 @@
-gary_johnson,Social policy,Drinking age
-gary_johnson,Social policy,Death penalty
-gary_johnson,Social policy,Abortion
-gary_johnson,Social policy,Tobacco control
-gary_johnson,Social policy,Stem cell research
-gary_johnson,Social policy,Education
-gary_johnson,Social policy,Crime
-gary_johnson,Social policy,Immigration
-gary_johnson,Social policy,Gun rights
-gary_johnson,Social policy,Internet issues
-gary_johnson,Social policy,Drug policy
-gary_johnson,Social policy,Homosexuality issues
-gary_johnson,Economic policy,Health care
-gary_johnson,Economic policy,Free-market capitalism
-gary_johnson,Economic policy,Budget, deficits
-gary_johnson,Economic policy,Energy
-gary_johnson,Economic policy,Employment
-gary_johnson,Economic policy,Labor unions
-gary_johnson,Economic policy,Environment
-gary_johnson,Economic policy,Federal Reserve
-gary_johnson,Economic policy,Free trade
-gary_johnson,Economic policy,Social Security and Medicare
-gary_johnson,Structure of government,Eminent domain
-gary_johnson,Structure of government,Judicial appointments
-gary_johnson,Structure of government,Campaign finance regulation
-gary_johnson,Structure of government,States' rights
-gary_johnson,Structure of government,Civil liberties
-gary_johnson,Military and foreign policy,Cuba
-gary_johnson,Military and foreign policy,Non-state terrorism
-gary_johnson,Military and foreign policy,Afghanistan
-gary_johnson,Military and foreign policy,Iran
-gary_johnson,Military and foreign policy,Ukraine
-gary_johnson,Military and foreign policy,Uganda
-gary_johnson,Military and foreign policy,Iraq
-gary_johnson,Military and foreign policy,Israel
-gary_johnson,Military and foreign policy,Libya
+gary_johnson,economic_policy,environment
+gary_johnson,economic_policy,federal_reserve
+gary_johnson,economic_policy,health_care
+gary_johnson,economic_policy,budget_deficits
+gary_johnson,economic_policy,employment
+gary_johnson,economic_policy,labor_unions
+gary_johnson,economic_policy,free_trade
+gary_johnson,economic_policy,social_security_and_medicare
+gary_johnson,economic_policy,freemarket_capitalism
+gary_johnson,economic_policy,energy
+gary_johnson,social_policy,overview
+gary_johnson,social_policy,death_penalty
+gary_johnson,social_policy,immigration
+gary_johnson,social_policy,abortion
+gary_johnson,social_policy,education
+gary_johnson,social_policy,tobacco_control
+gary_johnson,social_policy,internet_issues
+gary_johnson,social_policy,gun_rights
+gary_johnson,social_policy,drinking_age
+gary_johnson,social_policy,drug_policy
+gary_johnson,social_policy,homosexuality_issues
+gary_johnson,social_policy,stem_cell_research
+gary_johnson,social_policy,crime
+gary_johnson,military_and_foreign_policy,overview
+gary_johnson,military_and_foreign_policy,israel
+gary_johnson,military_and_foreign_policy,iran
+gary_johnson,military_and_foreign_policy,afghanistan
+gary_johnson,military_and_foreign_policy,iraq
+gary_johnson,military_and_foreign_policy,ukraine
+gary_johnson,military_and_foreign_policy,nonstate_terrorism
+gary_johnson,military_and_foreign_policy,uganda
+gary_johnson,military_and_foreign_policy,libya
+gary_johnson,military_and_foreign_policy,cuba
+gary_johnson,structure_of_government,campaign_finance_regulation
+gary_johnson,structure_of_government,states_rights
+gary_johnson,structure_of_government,civil_liberties
+gary_johnson,structure_of_government,eminent_domain
+gary_johnson,structure_of_government,judicial_appointments

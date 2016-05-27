@@ -1,11 +1,15 @@
-bob_barr,Foreign policy,Foreign aid
-bob_barr,Foreign policy,Trade
-bob_barr,Foreign policy,Iran
-bob_barr,Foreign policy,United Nations
-bob_barr,Foreign policy,War in Iraq
-bob_barr,Economic policy,Social Security
-bob_barr,Economic policy,Monetary policy
-bob_barr,Economic policy,Taxation
-bob_barr,Civil liberties,Privacy
-bob_barr,Civil liberties,Gun ownership rights
-bob_barr,Civil liberties,Marriage
+bob_barr,economic_policy,monetary_policy
+bob_barr,economic_policy,social_security
+bob_barr,economic_policy,taxation
+bob_barr,education,overview
+bob_barr,foreign_policy,foreign_aid
+bob_barr,foreign_policy,trade
+bob_barr,foreign_policy,united_nations
+bob_barr,foreign_policy,war_in_iraq
+bob_barr,foreign_policy,iran
+bob_barr,environmental_policy,overview
+bob_barr,civil_liberties,gun_ownership_rights
+bob_barr,civil_liberties,marriage
+bob_barr,civil_liberties,privacy
+bob_barr,borders_and_immigration,overview
+bob_barr,health_policy,overview

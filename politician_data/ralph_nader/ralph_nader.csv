@@ -1,12 +1,14 @@
-ralph_nader,Social policy,Health care
-ralph_nader,Social policy,Public safety
-ralph_nader,Social policy,Civil rights
-ralph_nader,Constitutional policy,Voting
-ralph_nader,Constitutional policy,Campaign finance
-ralph_nader,Foreign policy,Relations and views of other governments
-ralph_nader,Foreign policy,Cuba
-ralph_nader,Foreign policy,Defense and military
-ralph_nader,Foreign policy,Israel/Palestinian territories
-ralph_nader,Economic policy,Corporations
-ralph_nader,Economic policy,Finance
-ralph_nader,Economic policy,Labor
+ralph_nader,economic_policy,finance
+ralph_nader,economic_policy,corporations
+ralph_nader,economic_policy,labor
+ralph_nader,energy_policy,overview
+ralph_nader,foreign_policy,defense_and_military
+ralph_nader,foreign_policy,israelpalestinian_territories
+ralph_nader,foreign_policy,relations_and_views_of_other_governments
+ralph_nader,foreign_policy,cuba
+ralph_nader,environmental_policy,overview
+ralph_nader,social_policy,health_care
+ralph_nader,social_policy,civil_rights
+ralph_nader,social_policy,public_safety
+ralph_nader,constitutional_policy,campaign_finance
+ralph_nader,constitutional_policy,voting

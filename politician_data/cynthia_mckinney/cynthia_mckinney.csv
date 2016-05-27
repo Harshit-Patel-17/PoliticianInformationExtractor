@@ -1,25 +1,25 @@
-cynthia_mckinney,Social policy,Education
-cynthia_mckinney,Social policy,Crime
-cynthia_mckinney,Social policy,Affirmative action
-cynthia_mckinney,Social policy,Immigration
-cynthia_mckinney,Social policy,LGBT rights
-cynthia_mckinney,Social policy,Abortion
-cynthia_mckinney,Social policy,Gun control
-cynthia_mckinney,Foreign policy,Nuclear weapons
-cynthia_mckinney,Foreign policy,Cuba
-cynthia_mckinney,Foreign policy,Czech Republic
-cynthia_mckinney,Foreign policy,Pakistan
-cynthia_mckinney,Foreign policy,Kosovo
-cynthia_mckinney,Foreign policy,Iraq War
-cynthia_mckinney,Foreign policy,Israel and Palestine
-cynthia_mckinney,Economic policy,Health care
-cynthia_mckinney,Economic policy,Defense spending
-cynthia_mckinney,Economic policy,Technology
-cynthia_mckinney,Economic policy,Network neutrality
-cynthia_mckinney,Economic policy,Free trade
-cynthia_mckinney,Economic policy,Financial crisis & bailout
-cynthia_mckinney,Economic policy,Tax reform
-cynthia_mckinney,Energy and environmental policy,Energy dependence
-cynthia_mckinney,Energy and environmental policy,Everglades
-cynthia_mckinney,Energy and environmental policy,Alternative energy sources
-cynthia_mckinney,Energy and environmental policy,ANWR
+cynthia_mckinney,economic_policy,defense_spending
+cynthia_mckinney,economic_policy,tax_reform
+cynthia_mckinney,economic_policy,network_neutrality
+cynthia_mckinney,economic_policy,health_care
+cynthia_mckinney,economic_policy,financial_crisis_bailout
+cynthia_mckinney,economic_policy,technology
+cynthia_mckinney,economic_policy,free_trade
+cynthia_mckinney,energy_and_environmental_policy,alternative_energy_sources
+cynthia_mckinney,energy_and_environmental_policy,everglades
+cynthia_mckinney,energy_and_environmental_policy,anwr
+cynthia_mckinney,energy_and_environmental_policy,energy_dependence
+cynthia_mckinney,foreign_policy,kosovo
+cynthia_mckinney,foreign_policy,pakistan
+cynthia_mckinney,foreign_policy,czech_republic
+cynthia_mckinney,foreign_policy,nuclear_weapons
+cynthia_mckinney,foreign_policy,israel_and_palestine
+cynthia_mckinney,foreign_policy,iraq_war
+cynthia_mckinney,foreign_policy,cuba
+cynthia_mckinney,social_policy,affirmative_action
+cynthia_mckinney,social_policy,immigration
+cynthia_mckinney,social_policy,abortion
+cynthia_mckinney,social_policy,education
+cynthia_mckinney,social_policy,crime
+cynthia_mckinney,social_policy,lgbt_rights
+cynthia_mckinney,social_policy,gun_control

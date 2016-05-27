@@ -11,7 +11,8 @@ import org.json.JSONObject;
 import org.xml.sax.SAXException;
 
 import config.Config;
-import parsing.WikiParser;
+import wikipedia.WikiParser;
+import wikipedia.WikiWriter;
 
 public class Main {
 
@@ -22,39 +23,16 @@ public class Main {
 		String srcFileName = Config.PoliticianDataPath + args[1] + "/" + args[1] + ".html";
 		String dstJsonFileName = Config.PoliticianDataPath + args[1] + "/" + args[1] + ".json";
 		String dstCsvFileName = Config.PoliticianDataPath + args[1] + "/" + args[1] + ".csv";
+		String dstSanitizedFileName = Config.PoliticianDataPath + args[1] + "/" + args[1] + "_sanitized.txt";
 		
 		WikiParser wikiParser = new WikiParser();
 		JSONObject page = wikiParser.parseAndClean(srcFileName);
 		
-		//Write to JSON file
-		File jsonFile = new File(dstJsonFileName);
-		if(!jsonFile.exists())
-			jsonFile.createNewFile();
+		WikiWriter wikiWriter = new WikiWriter();
+		wikiWriter.writeAsJson(dstJsonFileName, page, args[1]);
+		wikiWriter.writeAsCsv(dstCsvFileName, page, args[1]);
+		wikiWriter.writeAsSanitizedContent(dstSanitizedFileName, page, args[1]);
 		
-		FileWriter fileWriter = new FileWriter(jsonFile.getAbsoluteFile());
-		BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-		bufferedWriter.write(page.toString());
-		bufferedWriter.close();
-		
-		//Write to CSV file
-		File csvFile = new File(dstCsvFileName);
-		if(!csvFile.exists())
-			csvFile.createNewFile();
-		
-		PrintWriter printWriter = new PrintWriter(csvFile);
-		Iterator<String> categories = page.keys();
-		
-		while(categories.hasNext()) {
-			String category = categories.next();
-			Iterator<String> topics = page.getJSONObject(category).keys();
-			
-			while(topics.hasNext()) {
-				String topic = topics.next();
-				if(page.getJSONObject(category).get(topic) instanceof JSONObject)
-					printWriter.println(args[1] + "," + category + "," + topic);
-			}
-		}
-		printWriter.close();
 	}
 
 }

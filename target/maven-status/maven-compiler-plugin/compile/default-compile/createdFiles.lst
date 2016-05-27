@@ -1,7 +1,8 @@
 Main.class
-parsing\WikiParser$FSM_state.class
-parsing\WikiParser$FSM_transition.class
+wikipedia\WikiParser$FSM_state.class
+wikipedia\WikiWriter.class
+wikipedia\WikiParser.class
 error\Error.class
-parsing\WikiParser.class
+wikipedia\WikiParser$1.class
 config\Config.class
-parsing\WikiParser$1.class
+wikipedia\WikiParser$FSM_transition.class
